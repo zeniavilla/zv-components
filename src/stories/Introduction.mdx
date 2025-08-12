@@ -1,0 +1,56 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+import Github from "./assets/github.svg";
+
+<Meta title="Introduction" />
+
+<div className="sb-container">
+  <div className='sb-section-title'>
+    # zv-components
+
+    Welcome to **zv-components**, a modern and elegant UI component library built for React. This library is designed with a **Modern Whimsy** theme, balancing a timeless, clean aesthetic with fresh, playful details.
+  </div>
+</div>
+<div className="sb-container">
+  <div className='sb-section-title'>
+    ### Quick Start
+
+    To explore the components and see them in action, run the Storybook development server:
+    <div className="code-wrapper">
+      npm run storybook
+    </div>
+  </div>
+</div>
+<div className="sb-container">
+  <div className='sb-section-title'>
+    ### Technology Stack
+
+    - **React**: For building the user interface.
+    - **TypeScript**: Ensuring type safety and a robust codebase.
+    - **Tailwind CSS**: For utility-first styling.
+    - **Shadcn-UI**: As the foundation for our accessible components.
+    - **Storybook**: For documenting and testing components in isolation.
+  </div>
+</div>
+
+<div className="sb-section sb-socials">
+    <div className="sb-section-item">
+      <a href="https://github.com/zeniavilla/zv-components.git" target="_blank">
+        <img src={Github} alt="Github logo" className="sb-explore-image"/>
+      </a>
+      All the source code for this library can be found on GitHub.
+    </div>
+</div>
+
+<style>
+  {`
+    .code-wrapper {
+      background-color: #F5F5F5; /* Foundation White */
+      padding: 0.25rem 1rem;
+      border-radius: 0.25rem;
+      font-family: monospace;
+      white-space: pre-wrap; /* Ensures long lines wrap */
+      margin-bottom: .5rem;
+    }
+
+`}
+</style>
